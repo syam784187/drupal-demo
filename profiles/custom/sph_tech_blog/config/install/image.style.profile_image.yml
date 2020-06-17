@@ -1,0 +1,17 @@
+uuid: d331d65d-8c05-45a8-a012-268e161f119e
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.profile_image
+  module:
+    - crop
+name: profile_image
+label: 'Profile Image'
+effects:
+  12e39b19-7b65-48eb-a383-dae97475b823:
+    uuid: 12e39b19-7b65-48eb-a383-dae97475b823
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: profile_image

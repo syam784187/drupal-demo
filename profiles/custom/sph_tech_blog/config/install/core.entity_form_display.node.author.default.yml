@@ -1,41 +1,33 @@
-uuid: d65831e0-6e19-4c84-9c52-0f522a8616f0
+uuid: a9b2577b-2be0-44f1-b9f2-93efd236636b
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.user.user.field_description
-    - field.field.user.user.field_designation
-    - field.field.user.user.field_full_name
-    - field.field.user.user.user_picture
+    - field.field.node.author.body
+    - field.field.node.author.field_description
+    - field.field.node.author.field_designation
+    - field.field.node.author.field_full_name
+    - field.field.node.author.field_image
     - image.style.profile_image
+    - node.type.author
   module:
     - image_widget_crop
+    - path
     - text
-    - user
-_core:
-  default_config_hash: K-1rBM8mTIkFp9RqOC2tMRUukOQ1xbRCfSKK8dEddnA
-id: user.user.default
-targetEntityType: user
-bundle: user
+id: node.author.default
+targetEntityType: node
+bundle: author
 mode: default
 content:
-  account:
-    weight: 4
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  contact:
-    weight: 6
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   field_description:
     weight: 2
     settings:
-      size: 60
+      rows: 9
+      summary_rows: 3
       placeholder: ''
+      show_summary: false
     third_party_settings: {  }
-    type: text_textfield
+    type: text_textarea_with_summary
     region: content
   field_designation:
     weight: 1
@@ -53,18 +45,8 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
-  language:
-    weight: 5
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  timezone:
-    weight: 7
-    region: content
-    settings: {  }
-    third_party_settings: {  }
-  user_picture:
-    type: image_widget_crop
+  field_image:
+    weight: 4
     settings:
       show_default_crop: true
       warn_multiple_usages: true
@@ -77,6 +59,19 @@ content:
       progress_indicator: throbber
       show_crop_area: false
     third_party_settings: {  }
+    type: image_widget_crop
+    region: content
+  path:
+    type: path
     weight: 3
     region: content
-hidden: {  }
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  created: true
+  promote: true
+  status: true
+  sticky: true
+  title: true
+  uid: true
