@@ -1,4 +1,4 @@
-uuid: d331d65d-8c05-45a8-a012-268e161f119e
+uuid: b2789dcb-f438-4705-978c-9188b74d0a50
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - crop.type.profile_image
   module:
     - crop
+_core:
+  default_config_hash: SJi0EuETYljZ0vXVcw0FkEvnJRbleohvI9cO-QR7IJ4
 name: profile_image
 label: 'Profile Image'
 effects:
@@ -15,3 +17,11 @@ effects:
     weight: 1
     data:
       crop_type: profile_image
+  25279735-bfe0-4087-9888-61cf7623cd89:
+    uuid: 25279735-bfe0-4087-9888-61cf7623cd89
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 60
+      height: 70
+      anchor: center-center

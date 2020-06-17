@@ -1,0 +1,21 @@
+uuid: 5db162ec-6c26-43c0-b868-ac3258cbc502
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email_address
+    - node.type.author
+_core:
+  default_config_hash: jJQzbW46ESiTY3RJis1e7BCIXF37h6iv6Uzn6a-JWdY
+id: node.author.field_email_address
+field_name: field_email_address
+entity_type: node
+bundle: author
+label: 'Email address'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

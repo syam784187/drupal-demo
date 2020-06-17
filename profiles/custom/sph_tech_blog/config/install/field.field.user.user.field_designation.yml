@@ -1,4 +1,4 @@
-uuid: 021222ba-3ef4-4125-aef2-6ab45978d577
+uuid: dd9bf7f0-e800-492f-bad5-cb6d07ae6851
 langcode: en
 status: true
 dependencies:
@@ -6,6 +6,8 @@ dependencies:
     - field.storage.user.field_designation
   module:
     - user
+_core:
+  default_config_hash: gPqifIY-zdP1uQEq4cMCHhF_XGVlRQ14LR7MbFT3afk
 id: user.user.field_designation
 field_name: field_designation
 entity_type: user

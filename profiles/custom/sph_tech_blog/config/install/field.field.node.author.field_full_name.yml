@@ -1,4 +1,4 @@
-uuid: 581caaff-4e8d-4055-abc4-5a873dc4e22d
+uuid: 8924ef0a-66f8-4f12-b81d-d04f8c17a99e
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - field.storage.node.field_full_name
     - node.type.author
 _core:
-  default_config_hash: jXfJISdcM2J0qURalLB9LOSO5EvAd5411fN6dJic8lo
+  default_config_hash: IKiz50V3FYHTZltNct41R81Hl6BJ7WXqr1nPjAj7JyA
 id: node.author.field_full_name
 field_name: field_full_name
 entity_type: node

@@ -1,13 +1,14 @@
+uuid: 147022c3-bbbc-4ff1-a419-bc44c163698e
 langcode: en
 status: true
 dependencies:
   module:
     - editor
+_core:
+  default_config_hash: svejBAiBwALaC_w177xrfxgSohJVRMBWC8o2kfKabLs
 name: 'Full HTML'
 format: full_html
 weight: 2
-roles:
-  - administrator
 filters:
   filter_align:
     id: filter_align

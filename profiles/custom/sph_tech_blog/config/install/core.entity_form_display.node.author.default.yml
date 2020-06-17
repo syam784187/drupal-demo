@@ -1,4 +1,4 @@
-uuid: a9b2577b-2be0-44f1-b9f2-93efd236636b
+uuid: 66697229-6f2f-4b12-bab3-984ad28db24b
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,9 @@ dependencies:
     - field.field.node.author.body
     - field.field.node.author.field_description
     - field.field.node.author.field_designation
+    - field.field.node.author.field_email_address
     - field.field.node.author.field_full_name
-    - field.field.node.author.field_image
+    - field.field.node.author.field_profile_image
     - image.style.profile_image
     - node.type.author
   module:
@@ -15,7 +16,7 @@ dependencies:
     - path
     - text
 _core:
-  default_config_hash: W9G3AExHlteEVpyeF2G-Isg2REaWYs_ZpoO1Eo2piBo
+  default_config_hash: HbwI1Dgadm7oRQehggg6p5siWavTfxwp7AOkXB9t134
 id: node.author.default
 targetEntityType: node
 bundle: author
@@ -32,14 +33,6 @@ content:
     type: text_textarea_with_summary
     region: content
   field_designation:
-    weight: 2
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_full_name:
     weight: 1
     settings:
       size: 60
@@ -47,8 +40,16 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
-  field_image:
-    weight: 5
+  field_email_address:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_profile_image:
+    weight: 26
     settings:
       show_default_crop: true
       warn_multiple_usages: true
@@ -65,7 +66,7 @@ content:
     region: content
   path:
     type: path
-    weight: 4
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -80,6 +81,7 @@ content:
 hidden:
   body: true
   created: true
+  field_full_name: true
   promote: true
   status: true
   sticky: true
