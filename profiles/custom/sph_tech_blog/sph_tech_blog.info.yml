@@ -40,10 +40,13 @@ install:
   - views_ui
   - tour
   - automated_cron
+  - crop
+  - image_widget_crop
 dependencies:
   - node
   - block
   - views
+  - image_widget_crop
 themes:
   - bartik
   - seven
