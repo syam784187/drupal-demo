@@ -6,7 +6,7 @@ dependencies:
     - field.field.node.author.body
     - field.field.node.author.field_description
     - field.field.node.author.field_designation
-    - field.field.node.author.field_full_name
+    - field.field.node.author.field_email_address
     - field.field.node.author.field_image
     - image.style.profile_image
     - node.type.author
@@ -15,44 +15,36 @@ dependencies:
     - text
     - user
 _core:
-  default_config_hash: ccumiGTjxH--1AyDvz5qQWhbHKcDWZyZ3OkGuJvk9Is
+  default_config_hash: 6ZSfWQ9UVCRvr1YWN7oLypwMMrub39GcwCGT0TMNTRI
 id: node.author.default
 targetEntityType: node
 bundle: author
 mode: default
 content:
-  body:
-    label: hidden
-    type: text_default
-    weight: 101
-    settings: {  }
-    third_party_settings: {  }
-    region: content
   field_description:
-    weight: 106
+    weight: 2
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_designation:
-    weight: 103
+    weight: 0
     label: above
     settings:
       link_to_entity: false
     third_party_settings: {  }
     type: string
     region: content
-  field_full_name:
-    weight: 102
+  field_email_address:
+    weight: 1
     label: above
-    settings:
-      link_to_entity: false
+    settings: {  }
     third_party_settings: {  }
-    type: string
+    type: basic_string
     region: content
   field_image:
-    weight: 105
+    weight: 3
     label: above
     settings:
       image_style: profile_image
@@ -61,8 +53,9 @@ content:
     type: image
     region: content
   links:
-    weight: 100
+    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  body: true

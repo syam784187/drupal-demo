@@ -1,8 +1,11 @@
+uuid: eada768d-6edb-467c-9d13-96c6383964d3
 langcode: en
 status: true
 dependencies:
   theme:
     - seven
+_core:
+  default_config_hash: ddy1OsBbWxjwEI8VL1viD4I69qcLHOkul4BxbTqLBTs
 id: seven_primary_local_tasks
 theme: seven
 region: header

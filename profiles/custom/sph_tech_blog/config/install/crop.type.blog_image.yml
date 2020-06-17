@@ -1,0 +1,12 @@
+uuid: 041a49a8-dba0-4a8b-959c-f97e9bfac8a0
+langcode: en
+status: true
+dependencies: {  }
+id: blog_image
+label: 'Blog image'
+description: ''
+aspect_ratio: ''
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: 450
+hard_limit_height: 300

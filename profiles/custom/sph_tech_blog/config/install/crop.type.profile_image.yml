@@ -2,6 +2,8 @@ uuid: 7d466d58-5fa9-4a41-906e-936bd5534ab2
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: T9QJA1G00jcYVICJ21kbAfMkoASwrddALOsnkLGl9vc
 id: profile_image
 label: 'Profile Image'
 description: ''

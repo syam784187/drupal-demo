@@ -6,7 +6,7 @@ dependencies:
     - field.storage.node.field_designation
     - node.type.author
 _core:
-  default_config_hash: TDUD9643sleub90u6lzlnS8T7_98DtgLlrU8jkYNLRg
+  default_config_hash: roXF59qQxBZyP0edHDPeX6PsRND3HmDFXsxGqmTbicA
 id: node.author.field_designation
 field_name: field_designation
 entity_type: node

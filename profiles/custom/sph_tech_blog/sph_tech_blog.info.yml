@@ -42,11 +42,13 @@ install:
   - automated_cron
   - crop
   - image_widget_crop
+  - imagefield_slideshow
 dependencies:
   - node
   - block
   - views
   - image_widget_crop
+  - imagefield_slideshow
 themes:
   - bartik
   - seven

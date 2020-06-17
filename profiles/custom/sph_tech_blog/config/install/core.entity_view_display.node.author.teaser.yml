@@ -7,34 +7,38 @@ dependencies:
     - field.field.node.author.body
     - field.field.node.author.field_description
     - field.field.node.author.field_designation
-    - field.field.node.author.field_full_name
+    - field.field.node.author.field_email_address
     - field.field.node.author.field_image
+    - image.style.profile_image
     - node.type.author
   module:
-    - text
+    - image
     - user
 _core:
-  default_config_hash: TAG9jsFUzmTmCj_tqIqYXIItQnRTIsvwi0QGmoEVrn4
+  default_config_hash: bsCYBcEQHZ2IyW5djnRbDnWqsQj8_oHG-dqdSWAmzcs
 id: node.author.teaser
 targetEntityType: node
 bundle: author
 mode: teaser
 content:
-  body:
-    label: hidden
-    type: text_summary_or_trimmed
-    weight: 101
-    settings:
-      trim_length: 600
-    third_party_settings: {  }
+  field_email_address:
+    type: basic_string
+    weight: 0
     region: content
-  links:
-    weight: 100
+    label: above
     settings: {  }
     third_party_settings: {  }
+  field_image:
+    type: image
+    weight: 1
     region: content
+    label: above
+    settings:
+      image_style: profile_image
+      image_link: content
+    third_party_settings: {  }
 hidden:
+  body: true
   field_description: true
   field_designation: true
-  field_full_name: true
-  field_image: true
+  links: true

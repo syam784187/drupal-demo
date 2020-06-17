@@ -10,10 +10,10 @@ third_party_settings:
       - main
     parent: 'main:'
 _core:
-  default_config_hash: eCoMDZc4EgoQHSl3amg0cg63awNm_Ob52xZ_ZeD8KBc
+  default_config_hash: AwExMvCBe3fs0lWMFW79kLXJhGK72Por7paTf6qaj7Y
 name: Author
 type: author
-description: ''
+description: 'Author information will be available here.'
 help: ''
 new_revision: true
 preview_mode: 1

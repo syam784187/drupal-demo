@@ -1,0 +1,25 @@
+uuid: fbb5ef56-2c78-43e1-9657-a392d572a2c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.blog_image
+  module:
+    - crop
+name: blog_image
+label: 'Blog image'
+effects:
+  20fbc593-6fdd-4daf-8df8-383377b31944:
+    uuid: 20fbc593-6fdd-4daf-8df8-383377b31944
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: blog_image
+  eee46563-69b0-4297-a6ac-bdca9edec6f7:
+    uuid: eee46563-69b0-4297-a6ac-bdca9edec6f7
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 450
+      height: 300
+      anchor: center-center

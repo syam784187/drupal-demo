@@ -1,6 +1,6 @@
-uuid: ''
-name: ''
-mail: ''
+uuid: 09a27953-1e5d-424c-b63f-83ae05b713d8
+name: 'Drupal demo'
+mail: syam.mohan2@cognizant.com
 slogan: ''
 page:
   403: ''
@@ -10,3 +10,5 @@ admin_compact_mode: false
 weight_select_max: 100
 langcode: en
 default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
