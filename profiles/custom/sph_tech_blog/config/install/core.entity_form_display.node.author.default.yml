@@ -14,13 +14,15 @@ dependencies:
     - image_widget_crop
     - path
     - text
+_core:
+  default_config_hash: W9G3AExHlteEVpyeF2G-Isg2REaWYs_ZpoO1Eo2piBo
 id: node.author.default
 targetEntityType: node
 bundle: author
 mode: default
 content:
   field_description:
-    weight: 2
+    weight: 3
     settings:
       rows: 9
       summary_rows: 3
@@ -30,7 +32,7 @@ content:
     type: text_textarea_with_summary
     region: content
   field_designation:
-    weight: 1
+    weight: 2
     settings:
       size: 60
       placeholder: ''
@@ -38,7 +40,7 @@ content:
     type: string_textfield
     region: content
   field_full_name:
-    weight: 0
+    weight: 1
     settings:
       size: 60
       placeholder: ''
@@ -46,7 +48,7 @@ content:
     type: string_textfield
     region: content
   field_image:
-    weight: 4
+    weight: 5
     settings:
       show_default_crop: true
       warn_multiple_usages: true
@@ -63,9 +65,17 @@ content:
     region: content
   path:
     type: path
-    weight: 3
+    weight: 4
     region: content
     settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
 hidden:
   body: true
@@ -73,5 +83,4 @@ hidden:
   promote: true
   status: true
   sticky: true
-  title: true
   uid: true

@@ -9,6 +9,8 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
+_core:
+  default_config_hash: eCoMDZc4EgoQHSl3amg0cg63awNm_Ob52xZ_ZeD8KBc
 name: Author
 type: author
 description: ''

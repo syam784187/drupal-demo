@@ -13,6 +13,8 @@ dependencies:
   module:
     - text
     - user
+_core:
+  default_config_hash: TAG9jsFUzmTmCj_tqIqYXIItQnRTIsvwi0QGmoEVrn4
 id: node.author.teaser
 targetEntityType: node
 bundle: author

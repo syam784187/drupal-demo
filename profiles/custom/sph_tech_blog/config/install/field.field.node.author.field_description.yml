@@ -7,6 +7,8 @@ dependencies:
     - node.type.author
   module:
     - text
+_core:
+  default_config_hash: NO7lft5y2bvsCJncED51uzyEnY3N8Rha1awBaPgHQZY
 id: node.author.field_description
 field_name: field_description
 entity_type: node
