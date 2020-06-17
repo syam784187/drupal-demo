@@ -1,9 +1,12 @@
+uuid: 03c2a2e7-97d1-4e87-864e-d79ff2943417
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_designation
     - node.type.author
+_core:
+  default_config_hash: HJ-sO-wb9600jj4e1TIYu17Ep8ve2sO3fpYA2ND9GK8
 id: node.author.field_designation
 field_name: field_designation
 entity_type: node

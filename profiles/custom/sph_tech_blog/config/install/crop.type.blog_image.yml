@@ -1,6 +1,9 @@
+uuid: 3d01c0c5-da3d-4759-abb2-ee749ed7dd3d
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 7XpdxJ6rDitt9TeeXQ9NzwhMrfJlKnJXbNhhza4Lpv4
 id: blog_image
 label: 'Blog image'
 description: ''

@@ -1,3 +1,4 @@
+uuid: 66697229-6f2f-4b12-bab3-984ad28db24b
 langcode: en
 status: true
 dependencies:
@@ -6,13 +7,16 @@ dependencies:
     - field.field.node.author.field_description
     - field.field.node.author.field_designation
     - field.field.node.author.field_email_address
-    - field.field.node.author.field_image
+    - field.field.node.author.field_full_name
+    - field.field.node.author.field_profile_image
     - image.style.profile_image
     - node.type.author
   module:
     - image_widget_crop
     - path
     - text
+_core:
+  default_config_hash: HbwI1Dgadm7oRQehggg6p5siWavTfxwp7AOkXB9t134
 id: node.author.default
 targetEntityType: node
 bundle: author
@@ -44,8 +48,8 @@ content:
     third_party_settings: {  }
     type: email_default
     region: content
-  field_image:
-    weight: 4
+  field_profile_image:
+    weight: 26
     settings:
       show_default_crop: true
       warn_multiple_usages: true
@@ -77,6 +81,7 @@ content:
 hidden:
   body: true
   created: true
+  field_full_name: true
   promote: true
   status: true
   sticky: true

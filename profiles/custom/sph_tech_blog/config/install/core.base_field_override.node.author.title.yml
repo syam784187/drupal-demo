@@ -1,8 +1,11 @@
+uuid: 80b0a490-0dc1-438e-ad47-4298eac34211
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.author
+_core:
+  default_config_hash: 96UoPG83HWKacu4futabNnrXL3vaf9hUrXs62N1XzPI
 id: node.author.title
 field_name: title
 entity_type: node

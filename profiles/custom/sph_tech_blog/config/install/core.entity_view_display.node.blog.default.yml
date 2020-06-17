@@ -1,3 +1,4 @@
+uuid: dcd7d1e8-1492-47e7-9aa7-bcedf7a182e3
 langcode: en
 status: true
 dependencies:
@@ -11,6 +12,8 @@ dependencies:
     - imagefield_slideshow
     - text
     - user
+_core:
+  default_config_hash: ZIPLHMpExLSYfTxsYjysYk9AEbSSHsd3EI1y3NpG2vY
 id: node.blog.default
 targetEntityType: node
 bundle: blog

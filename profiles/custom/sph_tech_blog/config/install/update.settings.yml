@@ -9,3 +9,5 @@ notification:
   emails:
     - syam.mohan2@cognizant.com
   threshold: all
+_core:
+  default_config_hash: 9Rz1exHQMe2L2dOGz6A6y9vNRd9G_t18U9ofaCQ1hGI

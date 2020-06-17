@@ -1,3 +1,4 @@
+uuid: aa6f34f1-d245-41a7-a2f8-f14dff960d42
 langcode: en
 status: true
 dependencies:
@@ -11,6 +12,8 @@ dependencies:
     - image_widget_crop
     - text
     - user
+_core:
+  default_config_hash: 9g2nS6BuWjFsBdihWkUcFOTQ9FLTrpfC7YDRQPCzdfM
 id: user.user.default
 targetEntityType: user
 bundle: user

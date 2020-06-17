@@ -1,19 +1,20 @@
+uuid: 2ba57a49-8463-4c7a-b7c0-6515fb545250
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_image
+    - field.storage.node.field_profile_image
     - node.type.author
   module:
     - image
-id: node.author.field_image
-field_name: field_image
+id: node.author.field_profile_image
+field_name: field_profile_image
 entity_type: node
 bundle: author
-label: Image
+label: 'Profile Image'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

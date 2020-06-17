@@ -1,9 +1,12 @@
+uuid: b651af69-608f-4f97-9c07-aa9c07419900
 langcode: en
 status: true
 dependencies:
   module:
     - text
     - user
+_core:
+  default_config_hash: O_M-1XrAdYuEyrn62Jt8n0UVUja-v1CPkZeiyBmgPHg
 id: user.field_description
 field_name: field_description
 entity_type: user

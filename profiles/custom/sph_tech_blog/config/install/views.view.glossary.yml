@@ -1,3 +1,4 @@
+uuid: d137d32e-82a9-4ae9-ba93-ce3aa0502ec8
 langcode: en
 status: false
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
   module:
     - node
     - user
+_core:
+  default_config_hash: Z1Lg95xnf11BTHIugkzple_pdxZdECiqLRcrLVo3bcw
 id: glossary
 label: Glossary
 module: node

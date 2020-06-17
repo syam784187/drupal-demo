@@ -1,3 +1,4 @@
+uuid: 29aae7e0-ebab-4d74-a53c-71930093336e
 langcode: en
 status: true
 dependencies:
@@ -7,6 +8,8 @@ dependencies:
   module:
     - path
     - text
+_core:
+  default_config_hash: AD_lefuYmjsKeH3OQApsyP_nLj6ZnGaALznLQSQ0Z_o
 id: node.page.default
 targetEntityType: node
 bundle: page

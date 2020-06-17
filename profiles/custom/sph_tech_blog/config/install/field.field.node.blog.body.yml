@@ -1,3 +1,4 @@
+uuid: 892e9ebe-6de6-4d28-88f8-3e969c4296a2
 langcode: en
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - node.type.blog
   module:
     - text
+_core:
+  default_config_hash: YxUVkX2qsnUnTSS72K9x7poFZhsV4yYxwEySjg5SC2s
 id: node.blog.body
 field_name: body
 entity_type: node

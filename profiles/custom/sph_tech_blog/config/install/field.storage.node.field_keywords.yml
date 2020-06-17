@@ -1,9 +1,12 @@
+uuid: b8e8fb85-5b40-44bc-8511-293b345163ef
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - taxonomy
+_core:
+  default_config_hash: gyN_2sZzI6jAnxIzmtiTBTTF25bSu1Ew8yqNiLiOwzg
 id: node.field_keywords
 field_name: field_keywords
 entity_type: node

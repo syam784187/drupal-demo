@@ -1,3 +1,4 @@
+uuid: 7b751ba2-cdae-41cc-b188-68a54c82a654
 langcode: en
 status: true
 dependencies:
@@ -8,6 +9,8 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
+_core:
+  default_config_hash: utbhNjivZxP9s9n9GGaEbUJxpEOnlGKLDYzIg4xGzM0
 name: Author
 type: author
 description: 'Author information will be available here.'

@@ -1,3 +1,4 @@
+uuid: 71a35a63-5ce6-42b8-bdad-72e3a63c6a27
 langcode: en
 status: true
 dependencies:
@@ -7,12 +8,15 @@ dependencies:
     - field.field.node.author.field_description
     - field.field.node.author.field_designation
     - field.field.node.author.field_email_address
-    - field.field.node.author.field_image
+    - field.field.node.author.field_full_name
+    - field.field.node.author.field_profile_image
     - image.style.profile_image
     - node.type.author
   module:
     - image
     - user
+_core:
+  default_config_hash: Hh7d7V2aRGdIAlz0dDVsJFdNXaNpBnH0gPRWFINeT_k
 id: node.author.teaser
 targetEntityType: node
 bundle: author
@@ -25,17 +29,18 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
-  field_image:
+  field_profile_image:
     type: image
     weight: 1
     region: content
     label: above
     settings:
       image_style: profile_image
-      image_link: content
+      image_link: ''
     third_party_settings: {  }
 hidden:
   body: true
   field_description: true
   field_designation: true
+  field_full_name: true
   links: true

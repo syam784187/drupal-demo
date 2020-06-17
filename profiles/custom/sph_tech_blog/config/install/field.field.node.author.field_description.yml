@@ -1,3 +1,4 @@
+uuid: fee96114-84e5-4952-909a-d09c40da1905
 langcode: en
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - node.type.author
   module:
     - text
+_core:
+  default_config_hash: hIso9F5cSb6mXSGZ_W-1g552SWoCLgmg6mO5FnywkfY
 id: node.author.field_description
 field_name: field_description
 entity_type: node

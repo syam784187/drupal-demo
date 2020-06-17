@@ -1,3 +1,4 @@
+uuid: a50f5636-a18c-484b-bb46-7211633e918b
 langcode: en
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - crop.type.blog_image
   module:
     - crop
+_core:
+  default_config_hash: PpQmu-KDC903pcmUxQQEH_KKTaWha4CCUtGAv0vn1D8
 name: blog_image
 label: 'Blog image'
 effects:

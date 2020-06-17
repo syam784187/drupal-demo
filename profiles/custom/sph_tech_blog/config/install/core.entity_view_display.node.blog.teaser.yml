@@ -1,3 +1,4 @@
+uuid: 1cc4dafc-5c0e-4e87-9895-19b4f4cf52db
 langcode: en
 status: true
 dependencies:
@@ -11,6 +12,8 @@ dependencies:
   module:
     - text
     - user
+_core:
+  default_config_hash: 35DyvqKDuy3-3ZwxIkVBO9bc2_MYJtgEmfq2meN0IWc
 id: node.blog.teaser
 targetEntityType: node
 bundle: blog

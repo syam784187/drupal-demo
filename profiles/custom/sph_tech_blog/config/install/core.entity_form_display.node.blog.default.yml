@@ -1,3 +1,4 @@
+uuid: 90a3bb4f-a966-4f6e-80fd-9887b973ae11
 langcode: en
 status: true
 dependencies:
@@ -12,6 +13,8 @@ dependencies:
     - image_widget_crop
     - path
     - text
+_core:
+  default_config_hash: u6s-69BS8nug09TTTdnJ9H4R_gRqMlgONNICC_vVrQE
 id: node.blog.default
 targetEntityType: node
 bundle: blog
