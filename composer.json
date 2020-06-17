@@ -20,7 +20,8 @@
         "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "^8.8",
         "drupal/core-vendor-hardening": "^8.8",
-        "drupal/image_widget_crop": "^2.3"
+        "drupal/image_widget_crop": "^2.3",
+        "drupal/imagefield_slideshow": "^1.10"
     },
     "require-dev": {
     },
